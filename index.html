@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>トップページ</title>
+    <meta name="keywords" content="日本一周,釣り,ショアジギング,ドライブ">
+    <meta name="description" content="無職の備忘録。釣りをしながら日本を周ります。">
+    <link href="toppage.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link href="fontssrc/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        }); //https://toretama.jp/automatic-slideshow-image.html
+    </script>
+  </head>
+  <body>
+    <div class="wrap">  
+      <div class="maintitle">
+        <div class="textarea">
+          <h1>無職の備忘録</h1>
+          <p>無職　22歳　秋　己の肉体と武術に限界を感じ、悩みに悩みぬいた結果私がたどり着いた結果は、<strong>旅</strong>であった。</p>
+   
+        </div>
+        <ul class="sns">
+            <li><a href="dummy.html" class="icon-twitter"></a></li>
+            <li><a href="dummy.html" class="icon-instagram"></a></li>
+            <li><a href="https://www.youtube.com/channel/UC8vT3qF1JtAPuhDkIYNCb8A" class="icon-youtube"></a></li>
+        </ul>   
+        <div class="menus">
+          <ul class="menu">
+            <li><a href="#">トップページ</a></li>
+            <li><a href="dummy.html">記事一覧</a></li>
+            <li><a href="dummy.html">最新の記事</a></li>
+          </ul>
+        </div>
+        <!-- youtubeのリンクは適当 -->
+          
+      </div>
+      <ul class="slider">
+        <li><img src="pictures/202101.JPG" alt="picture1"></li>
+        <li><img src="pictures/202102.JPG" alt="picture2"></li>
+        <li><img src="pictures/202103.JPG" alt="picture3"></li>
+      </ul>
+      <div class="articles">
+        <div class="article">
+          <a href="articles/page20210927.html">
+            <article>
+              <h1>9月28日　豊洲ぐるり公園</h1> 
+              <!-- タイトルとコンテンツ45文字を目途に、ＵＲＬを変える -->
+              <p>本日は豊洲ぐるり公園にシーバスをねらいに来ました。深夜にエントリーして翌朝までの釣行です。</p>
+              <p><a href="articles/page20210927.html">続きを読む</a></p>
+            </article>
+          </a>
+        </div>
+        <div class="article">  
+          <a href="articles/page20211003.html">
+            <article>
+              <h1>10月3日　スプリンターズステークス</h1>
+              <p>日本一周の準備を全力で遂行中。玄関でタバコを吸いながら、twitterを見てあることに気</p>
+              <p><a href="articles/page20211003.html">続きを読む</a></p>
+            </article>
+          </a>
+        </div>
+        <div class="article">
+          <a href="articles/page20210927.html">
+            <article>
+              <h1>title3</h1>
+              <p>contents</p>
+              <p><a href="articles/page20210927.html">続きを読む</a></p>
+            </article>
+          </a>
+        </div>
+      </div>
+      <div class="rightarea">
+        <div class="videobox">
+          <iframe width="320" height="180" src="https://www.youtube.com/embed/5xn_72cC06M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>  
+  </body>
+</html>
