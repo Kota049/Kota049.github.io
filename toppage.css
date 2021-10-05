@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+.slider{
+    width: 50%;
+    margin: 0 10%;
+}
+
+.slider img{
+    width: 70%;
+    height: auto;
+}
+.wrap{
+    width: 1040px;
+}
+/*ヘッダーのなか*/
+.maintitle{
+    font-size: large;
+    color: floralwhite;
+    background-color: darkslateblue;
+    height: 235px;  
+}
+.textarea{
+    float: left;
+    width: 500px;
+}
+.maintitle h1{
+    font-family:sans-serif;
+}
+.sns{
+    float: right;
+    list-style: none;
+    width: 220px;
+}
+.sns a{
+    display: block;
+    color: darkslateblue;
+    background-color: rgba(255,255,255,0.7);
+    font-size: 40px;
+    padding: 0 10px;
+    margin: 0px 5px;
+    float: left;
+    border-radius: 5px;
+}
+.sns a :hover{
+    background-color: rgba(255,255,255,1);
+}
+/* .sns li{ 
+    float: left; 
+}  */
+.menus{
+    clear: left;
+    overflow: hidden;
+    border-top:1px solid;
+}
+.menu li{
+    display: inline-block;
+    width: 150px;
+    padding: 0px 30px;
+    margin: 0px 55px;
+    text-align: center;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+.menu a :hover{
+    opacity:1;
+}
+.article{
+    background-color:rgba(220, 220,220, 0.7);
+    width: 90%;
+    margin:10px 0;
+    padding: 4px 25px;
+}
+.article a{
+    text-decoration:none;
+    color: black;
+}
+.articles{
+    float: left;
+    width: 50%;
+}
+.rightarea{
+    float: right;
+    width: 50%;
+    height:300px ;
+    position: relative;
+}
+.videobox{
+    position: absolute;
+    right: 0px;
+    top: 0px;   
+    width:320px;
+}
+
