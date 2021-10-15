@@ -21,18 +21,20 @@
     font-size: large;
     color: floralwhite;
     height: 235px;  
-    width: 1040px;
     margin: 0 auto;
+    position: relative;
 }
 .textarea{
-    float: left;
-    width: 500px;
+    float:left;
+    width:50% ;
 }
 .maintitle h1{
     font-family:sans-serif;
 }
 .sns{
-    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
     list-style: none;
     width: 220px;
 }
@@ -49,9 +51,6 @@
 .sns a :hover{
     background-color: rgba(255,255,255,1);
 }
-/* .sns li{ 
-    float: left; 
-}  */
 .menus{
     clear: left;
     overflow: hidden;
@@ -72,6 +71,22 @@
 .menu a :hover{
     opacity:1;
 }
+/* メディアクリエ */
+@media screen and (min-width:1040px) {
+    .maintitle{
+        width:1040px;
+    }
+}
+@media screen and (min-width:641px) and (max-width:1039px){
+    
+}
+@media screen and (max-width:640px) {
+    .maintitle{
+        width:100%;
+    }
+}
+
+/* 記事のところ */
 .article{
     background-color:rgba(220, 220,220, 0.7);
     width: 90%;
